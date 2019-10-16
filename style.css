@@ -34,3 +34,63 @@ p {
   width: 100%;
   text-align: center;
 }
+
+@media screen and (min-width: 768px) {
+  .vertical-menu {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .vertical-menu a {
+    display: inline;
+  }
+  .topright {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .stuff {
+    margin-top: 100px;
+  }
+  .content p {
+    width: 50%;
+  }
+
+  .button2 {
+    position: absolute;
+    bottom: 5%;
+    left: 45%;
+  }
+
+  .button2 a {
+    width: 150px;
+  }
+
+  .large {
+    height: 200px;
+    width: 200px;
+    background-color: rgba(247, 136, 167, 0.6);
+    border-radius: 50%;
+    position: absolute;
+    top: 15%;
+    right: 10%;
+  }
+  .medium {
+    height: 150px;
+    width: 150px;
+    background-color: rgba(247, 193, 162, 0.7);
+    border-radius: 50%;
+    position: absolute;
+    top: 30%;
+    right: 5%;
+  }
+  .small {
+    height: 100px;
+    width: 100px;
+    background-color: rgba(207, 130, 213, 0.6);
+    border-radius: 50%;
+    position: absolute;
+    top: 20%;
+    right: 5%;
+  }
+}
